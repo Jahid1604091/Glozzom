@@ -1,0 +1,148 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/3.jpg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/4.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getStart {
+  position: relative;
+  background: url("../img/bg2.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #getStart .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#video {
+  position: relative;
+  background: url("../img/g.png");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+  #video .fa {
+    font-size: 50px;
+    color: red; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copy {
+  background-color: black; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getStart {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getStart {
+    min-height: 350px; } }
+
+#about {
+  position: relative;
+  background: url("../img/2.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #about .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-box .fa {
+  font-size: 50px; }
+
+#testo .slick-prev::before,
+#testo .slick-next::before {
+  color: #000; }
+
+#services {
+  position: relative;
+  background: url("../img/2.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #services .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#blog {
+  position: relative;
+  background: url("../img/2.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #blog .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#blogPost .card-img-top {
+  width: 100%;
+  height: 14em; }
+
+#contact {
+  position: relative;
+  background: url("../img/2.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #contact .dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
